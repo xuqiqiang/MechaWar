@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>a4bd3c33-e173-4233-b52b-c5bfd57144c8</UniqueIdentifier>
+    </Filter>
+    <Page Include="Common\StandardStyles.xaml">
+      <Filter>Common</Filter>
+    </Page>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{97c3b83c-49c5-4c12-b313-2ad896c789fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DataType">
+      <UniqueIdentifier>{a952bc8e-107f-44d0-b29b-d079216dafae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameElement">
+      <UniqueIdentifier>{8249f3cb-37ca-4d1c-8d88-521b94464099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameManager">
+      <UniqueIdentifier>{a2ef7fac-2a08-44d1-ab64-625e220debbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{146cded9-577c-4caa-bb89-220178aeb8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameElement\Enemy">
+      <UniqueIdentifier>{6c35ddd7-fd40-471b-b62a-ba128128dc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameElement\Tower">
+      <UniqueIdentifier>{5bc85d56-9900-4911-a389-48833e5f55f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>c979f1c5-f7cd-46dd-805d-97511829bd44</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\fonts">
+      <UniqueIdentifier>{aae8d13b-2dcb-4c21-9aec-b60b74e335af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyLabel.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyRect.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyRectangle.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MySprite.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\Queue.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\Timer.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Attackfield.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Blast.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Bullet.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\HelpBar.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\MainTarget.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Map.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Mine.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\ShootFire.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Wall.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\CameraManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\GameManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\MathMethod.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\ObjectManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\PD.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\ProgressMananger.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\ResourceManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\RoundManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\SpriteManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\Status.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\HelloWorldScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\RoundSelectScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Enemy.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Flyer.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Plane.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Runner.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Tank.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\Pillbox.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\Rocket.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\SmokeRocket.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\Tower.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyPoint.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyLabel.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyRect.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyRectangle.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MySprite.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\Queue.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\Timer.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Attackfield.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Blast.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Bullet.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\HelpBar.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\MainTarget.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Map.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Mine.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\ShootFire.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Wall.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\CameraManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\GameManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\MathMethod.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\ObjectManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\PD.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\ProgressMananger.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\ResourceManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\RoundManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\SpriteManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\Status.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\HelloWorldScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\RoundSelectScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Enemy.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Flyer.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Plane.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Runner.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Tank.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\Pillbox.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\Rocket.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\SmokeRocket.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\Tower.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyPoint.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TemporaryKey.pfx" />
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\libEGL.dll" />
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\libGLESv2.dll" />
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\ARM\libEGL.dll" />
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\ARM\libGLESv2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\WideLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\advice.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\airshadowd.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\airshadowl.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\airshadowr.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\airshadowu.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\background.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bar1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bkg.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb6.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb7.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb8.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomb9.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bomba.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\bullet.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\charge1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\charge2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\d_ear.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\dialog.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e2d.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e2l.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e2r.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e2u.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e3d.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e3l.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e3r.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e3u.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e4d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e4l.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e4r.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e4u.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e5d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e5l.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e5r.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e5u.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e6d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e6l.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e6r.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e6u.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e7d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e7l.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e7r.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e7u.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e8d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e8l.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e8r.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e8u.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9a.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9b.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9c.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9e.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9f.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\e9shadow.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\ead.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\eal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\ear.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\eau.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\ed.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\el.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\er.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\eu.GIF">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\explosion1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\explosion2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\fire.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\fire1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\fire2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame0.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame6.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame7.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame8.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frame9.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\framea.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\frameb.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\framec.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\framed.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\framee.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\framef.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun_tower.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3a.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3b.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3c.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3d.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3e.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3f.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3g.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3h.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3i.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3j.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3k.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3l.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3m.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3n.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3o.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3p.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3q.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3r.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3s.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3t.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3u.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3v.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3w.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3x.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3y.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3za.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3zb.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3zc.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3zd.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3ze.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3zf.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun3zg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun21.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun31.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\gun31shadow.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\hide.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\honor.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\house1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\house2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\house3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\house4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\houseshadow1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\houseshadow2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\houseshadow3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\houseshadow4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\icon.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\jixu.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\mine.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\missile1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\missile2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\no.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\plane1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\plane2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\plane3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\plane4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\planebullet.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\planeshadow1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\planeshadow2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\planeshadow3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\planeshadow4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\promote.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\range.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\select1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\select2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\select3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\select4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\shot.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\speed1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\speed2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\speed3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\tank1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\tank2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\tank3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\tank4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\tank5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\tank6.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\unallow.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\wave.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\yes.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\zhan.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package_2013.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>Assets\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>Assets\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Classes\chinese.xml">
+      <Filter>Classes</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

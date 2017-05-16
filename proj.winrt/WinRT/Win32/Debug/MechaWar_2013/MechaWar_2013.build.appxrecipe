@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>XU-PC</Machine>
+    <WindowsUser>xuqiq_000</WindowsUser>
+    <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>16A6CBD7-44EF-4BD8-8ED6-D6D037B23B93</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.exe">
+      <PackagePath>MechaWar_2013.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar.winmd">
+      <PackagePath>MechaWar.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\chinese.xml">
+      <PackagePath>chinese.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fonts\arial.ttf">
+      <PackagePath>arial.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fonts\Marker Felt.ttf">
+      <PackagePath>Marker Felt.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fonts\arial.ttf">
+      <PackagePath>Assets\Resources\fonts\arial.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fonts\Marker Felt.ttf">
+      <PackagePath>Assets\Resources\fonts\Marker Felt.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\advice.png">
+      <PackagePath>advice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowd.png">
+      <PackagePath>airshadowd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowl.png">
+      <PackagePath>airshadowl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowr.png">
+      <PackagePath>airshadowr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowu.png">
+      <PackagePath>airshadowu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb1.png">
+      <PackagePath>bomb1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb2.png">
+      <PackagePath>bomb2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb3.png">
+      <PackagePath>bomb3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb4.png">
+      <PackagePath>bomb4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb5.png">
+      <PackagePath>bomb5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb6.png">
+      <PackagePath>bomb6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb7.png">
+      <PackagePath>bomb7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb8.png">
+      <PackagePath>bomb8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb9.png">
+      <PackagePath>bomb9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomba.png">
+      <PackagePath>bomba.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bullet.png">
+      <PackagePath>bullet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\charge1.png">
+      <PackagePath>charge1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\charge2.png">
+      <PackagePath>charge2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\CloseNormal.png">
+      <PackagePath>CloseNormal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\CloseSelected.png">
+      <PackagePath>CloseSelected.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\dialog.png">
+      <PackagePath>dialog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\d_ear.png">
+      <PackagePath>d_ear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4d.png">
+      <PackagePath>e4d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4l.png">
+      <PackagePath>e4l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4r.png">
+      <PackagePath>e4r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4u.png">
+      <PackagePath>e4u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5d.png">
+      <PackagePath>e5d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5l.png">
+      <PackagePath>e5l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5r.png">
+      <PackagePath>e5r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5u.png">
+      <PackagePath>e5u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6d.png">
+      <PackagePath>e6d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6l.png">
+      <PackagePath>e6l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6r.png">
+      <PackagePath>e6r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6u.png">
+      <PackagePath>e6u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7d.png">
+      <PackagePath>e7d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7l.png">
+      <PackagePath>e7l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7r.png">
+      <PackagePath>e7r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7u.png">
+      <PackagePath>e7u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8d.png">
+      <PackagePath>e8d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8l.png">
+      <PackagePath>e8l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8r.png">
+      <PackagePath>e8r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8u.png">
+      <PackagePath>e8u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9a.png">
+      <PackagePath>e9a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9b.png">
+      <PackagePath>e9b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9c.png">
+      <PackagePath>e9c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9d.png">
+      <PackagePath>e9d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9e.png">
+      <PackagePath>e9e.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9f.png">
+      <PackagePath>e9f.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9shadow.png">
+      <PackagePath>e9shadow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\ead.png">
+      <PackagePath>ead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\eal.png">
+      <PackagePath>eal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\ear.png">
+      <PackagePath>ear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\eau.png">
+      <PackagePath>eau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\explosion1.png">
+      <PackagePath>explosion1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\explosion2.png">
+      <PackagePath>explosion2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fire.png">
+      <PackagePath>fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fire1.png">
+      <PackagePath>fire1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fire2.png">
+      <PackagePath>fire2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame0.png">
+      <PackagePath>frame0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame1.png">
+      <PackagePath>frame1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame2.png">
+      <PackagePath>frame2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame3.png">
+      <PackagePath>frame3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame4.png">
+      <PackagePath>frame4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame5.png">
+      <PackagePath>frame5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame6.png">
+      <PackagePath>frame6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame7.png">
+      <PackagePath>frame7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame8.png">
+      <PackagePath>frame8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame9.png">
+      <PackagePath>frame9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framea.png">
+      <PackagePath>framea.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frameb.png">
+      <PackagePath>frameb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framec.png">
+      <PackagePath>framec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framed.png">
+      <PackagePath>framed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framee.png">
+      <PackagePath>framee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framef.png">
+      <PackagePath>framef.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun1.png">
+      <PackagePath>gun1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun2.png">
+      <PackagePath>gun2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun21.png">
+      <PackagePath>gun21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun31.png">
+      <PackagePath>gun31.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun31shadow.png">
+      <PackagePath>gun31shadow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3a.png">
+      <PackagePath>gun3a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3b.png">
+      <PackagePath>gun3b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3c.png">
+      <PackagePath>gun3c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3d.png">
+      <PackagePath>gun3d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3e.png">
+      <PackagePath>gun3e.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3f.png">
+      <PackagePath>gun3f.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3g.png">
+      <PackagePath>gun3g.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3h.png">
+      <PackagePath>gun3h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3i.png">
+      <PackagePath>gun3i.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3j.png">
+      <PackagePath>gun3j.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3k.png">
+      <PackagePath>gun3k.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3l.png">
+      <PackagePath>gun3l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3m.png">
+      <PackagePath>gun3m.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3n.png">
+      <PackagePath>gun3n.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3o.png">
+      <PackagePath>gun3o.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3p.png">
+      <PackagePath>gun3p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3q.png">
+      <PackagePath>gun3q.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3r.png">
+      <PackagePath>gun3r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3s.png">
+      <PackagePath>gun3s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3t.png">
+      <PackagePath>gun3t.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3u.png">
+      <PackagePath>gun3u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3v.png">
+      <PackagePath>gun3v.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3w.png">
+      <PackagePath>gun3w.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3x.png">
+      <PackagePath>gun3x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3y.png">
+      <PackagePath>gun3y.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3za.png">
+      <PackagePath>gun3za.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zb.png">
+      <PackagePath>gun3zb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zc.png">
+      <PackagePath>gun3zc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zd.png">
+      <PackagePath>gun3zd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3ze.png">
+      <PackagePath>gun3ze.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zf.png">
+      <PackagePath>gun3zf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zg.png">
+      <PackagePath>gun3zg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun_tower.png">
+      <PackagePath>gun_tower.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\HelloWorld.png">
+      <PackagePath>HelloWorld.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\hide.png">
+      <PackagePath>hide.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\honor.png">
+      <PackagePath>honor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house1.png">
+      <PackagePath>house1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house2.png">
+      <PackagePath>house2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house3.png">
+      <PackagePath>house3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house4.png">
+      <PackagePath>house4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow1.png">
+      <PackagePath>houseshadow1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow2.png">
+      <PackagePath>houseshadow2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow3.png">
+      <PackagePath>houseshadow3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow4.png">
+      <PackagePath>houseshadow4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\icon.png">
+      <PackagePath>icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\jixu.png">
+      <PackagePath>jixu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\mine.png">
+      <PackagePath>mine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\missile1.png">
+      <PackagePath>missile1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\missile2.png">
+      <PackagePath>missile2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\no.png">
+      <PackagePath>no.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane1.png">
+      <PackagePath>plane1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane2.png">
+      <PackagePath>plane2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane3.png">
+      <PackagePath>plane3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane4.png">
+      <PackagePath>plane4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planebullet.png">
+      <PackagePath>planebullet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow1.png">
+      <PackagePath>planeshadow1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow2.png">
+      <PackagePath>planeshadow2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow3.png">
+      <PackagePath>planeshadow3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow4.png">
+      <PackagePath>planeshadow4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\promote.png">
+      <PackagePath>promote.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\range.png">
+      <PackagePath>range.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select1.png">
+      <PackagePath>select1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select2.png">
+      <PackagePath>select2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select3.png">
+      <PackagePath>select3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select4.png">
+      <PackagePath>select4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\shot.png">
+      <PackagePath>shot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\speed1.png">
+      <PackagePath>speed1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\speed2.png">
+      <PackagePath>speed2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\speed3.png">
+      <PackagePath>speed3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank1.png">
+      <PackagePath>tank1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank2.png">
+      <PackagePath>tank2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank3.png">
+      <PackagePath>tank3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank4.png">
+      <PackagePath>tank4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank5.png">
+      <PackagePath>tank5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank6.png">
+      <PackagePath>tank6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\unallow.png">
+      <PackagePath>unallow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\wave.png">
+      <PackagePath>wave.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\yes.png">
+      <PackagePath>yes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\zhan.png">
+      <PackagePath>zhan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\advice.png">
+      <PackagePath>Assets\Resources\advice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowd.png">
+      <PackagePath>Assets\Resources\airshadowd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowl.png">
+      <PackagePath>Assets\Resources\airshadowl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowr.png">
+      <PackagePath>Assets\Resources\airshadowr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\airshadowu.png">
+      <PackagePath>Assets\Resources\airshadowu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb1.png">
+      <PackagePath>Assets\Resources\bomb1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb2.png">
+      <PackagePath>Assets\Resources\bomb2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb3.png">
+      <PackagePath>Assets\Resources\bomb3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb4.png">
+      <PackagePath>Assets\Resources\bomb4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb5.png">
+      <PackagePath>Assets\Resources\bomb5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb6.png">
+      <PackagePath>Assets\Resources\bomb6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb7.png">
+      <PackagePath>Assets\Resources\bomb7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb8.png">
+      <PackagePath>Assets\Resources\bomb8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomb9.png">
+      <PackagePath>Assets\Resources\bomb9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bomba.png">
+      <PackagePath>Assets\Resources\bomba.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bullet.png">
+      <PackagePath>Assets\Resources\bullet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\charge1.png">
+      <PackagePath>Assets\Resources\charge1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\charge2.png">
+      <PackagePath>Assets\Resources\charge2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\CloseNormal.png">
+      <PackagePath>Assets\Resources\CloseNormal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\CloseSelected.png">
+      <PackagePath>Assets\Resources\CloseSelected.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\dialog.png">
+      <PackagePath>Assets\Resources\dialog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\d_ear.png">
+      <PackagePath>Assets\Resources\d_ear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4d.png">
+      <PackagePath>Assets\Resources\e4d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4l.png">
+      <PackagePath>Assets\Resources\e4l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4r.png">
+      <PackagePath>Assets\Resources\e4r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e4u.png">
+      <PackagePath>Assets\Resources\e4u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5d.png">
+      <PackagePath>Assets\Resources\e5d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5l.png">
+      <PackagePath>Assets\Resources\e5l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5r.png">
+      <PackagePath>Assets\Resources\e5r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e5u.png">
+      <PackagePath>Assets\Resources\e5u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6d.png">
+      <PackagePath>Assets\Resources\e6d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6l.png">
+      <PackagePath>Assets\Resources\e6l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6r.png">
+      <PackagePath>Assets\Resources\e6r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e6u.png">
+      <PackagePath>Assets\Resources\e6u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7d.png">
+      <PackagePath>Assets\Resources\e7d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7l.png">
+      <PackagePath>Assets\Resources\e7l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7r.png">
+      <PackagePath>Assets\Resources\e7r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e7u.png">
+      <PackagePath>Assets\Resources\e7u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8d.png">
+      <PackagePath>Assets\Resources\e8d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8l.png">
+      <PackagePath>Assets\Resources\e8l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8r.png">
+      <PackagePath>Assets\Resources\e8r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e8u.png">
+      <PackagePath>Assets\Resources\e8u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9a.png">
+      <PackagePath>Assets\Resources\e9a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9b.png">
+      <PackagePath>Assets\Resources\e9b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9c.png">
+      <PackagePath>Assets\Resources\e9c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9d.png">
+      <PackagePath>Assets\Resources\e9d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9e.png">
+      <PackagePath>Assets\Resources\e9e.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9f.png">
+      <PackagePath>Assets\Resources\e9f.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e9shadow.png">
+      <PackagePath>Assets\Resources\e9shadow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\ead.png">
+      <PackagePath>Assets\Resources\ead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\eal.png">
+      <PackagePath>Assets\Resources\eal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\ear.png">
+      <PackagePath>Assets\Resources\ear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\eau.png">
+      <PackagePath>Assets\Resources\eau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\explosion1.png">
+      <PackagePath>Assets\Resources\explosion1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\explosion2.png">
+      <PackagePath>Assets\Resources\explosion2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fire.png">
+      <PackagePath>Assets\Resources\fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fire1.png">
+      <PackagePath>Assets\Resources\fire1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\fire2.png">
+      <PackagePath>Assets\Resources\fire2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame0.png">
+      <PackagePath>Assets\Resources\frame0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame1.png">
+      <PackagePath>Assets\Resources\frame1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame2.png">
+      <PackagePath>Assets\Resources\frame2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame3.png">
+      <PackagePath>Assets\Resources\frame3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame4.png">
+      <PackagePath>Assets\Resources\frame4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame5.png">
+      <PackagePath>Assets\Resources\frame5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame6.png">
+      <PackagePath>Assets\Resources\frame6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame7.png">
+      <PackagePath>Assets\Resources\frame7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame8.png">
+      <PackagePath>Assets\Resources\frame8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frame9.png">
+      <PackagePath>Assets\Resources\frame9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framea.png">
+      <PackagePath>Assets\Resources\framea.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\frameb.png">
+      <PackagePath>Assets\Resources\frameb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framec.png">
+      <PackagePath>Assets\Resources\framec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framed.png">
+      <PackagePath>Assets\Resources\framed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framee.png">
+      <PackagePath>Assets\Resources\framee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\framef.png">
+      <PackagePath>Assets\Resources\framef.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun1.png">
+      <PackagePath>Assets\Resources\gun1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun2.png">
+      <PackagePath>Assets\Resources\gun2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun21.png">
+      <PackagePath>Assets\Resources\gun21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun31.png">
+      <PackagePath>Assets\Resources\gun31.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun31shadow.png">
+      <PackagePath>Assets\Resources\gun31shadow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3a.png">
+      <PackagePath>Assets\Resources\gun3a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3b.png">
+      <PackagePath>Assets\Resources\gun3b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3c.png">
+      <PackagePath>Assets\Resources\gun3c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3d.png">
+      <PackagePath>Assets\Resources\gun3d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3e.png">
+      <PackagePath>Assets\Resources\gun3e.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3f.png">
+      <PackagePath>Assets\Resources\gun3f.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3g.png">
+      <PackagePath>Assets\Resources\gun3g.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3h.png">
+      <PackagePath>Assets\Resources\gun3h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3i.png">
+      <PackagePath>Assets\Resources\gun3i.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3j.png">
+      <PackagePath>Assets\Resources\gun3j.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3k.png">
+      <PackagePath>Assets\Resources\gun3k.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3l.png">
+      <PackagePath>Assets\Resources\gun3l.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3m.png">
+      <PackagePath>Assets\Resources\gun3m.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3n.png">
+      <PackagePath>Assets\Resources\gun3n.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3o.png">
+      <PackagePath>Assets\Resources\gun3o.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3p.png">
+      <PackagePath>Assets\Resources\gun3p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3q.png">
+      <PackagePath>Assets\Resources\gun3q.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3r.png">
+      <PackagePath>Assets\Resources\gun3r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3s.png">
+      <PackagePath>Assets\Resources\gun3s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3t.png">
+      <PackagePath>Assets\Resources\gun3t.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3u.png">
+      <PackagePath>Assets\Resources\gun3u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3v.png">
+      <PackagePath>Assets\Resources\gun3v.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3w.png">
+      <PackagePath>Assets\Resources\gun3w.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3x.png">
+      <PackagePath>Assets\Resources\gun3x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3y.png">
+      <PackagePath>Assets\Resources\gun3y.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3za.png">
+      <PackagePath>Assets\Resources\gun3za.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zb.png">
+      <PackagePath>Assets\Resources\gun3zb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zc.png">
+      <PackagePath>Assets\Resources\gun3zc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zd.png">
+      <PackagePath>Assets\Resources\gun3zd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3ze.png">
+      <PackagePath>Assets\Resources\gun3ze.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zf.png">
+      <PackagePath>Assets\Resources\gun3zf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun3zg.png">
+      <PackagePath>Assets\Resources\gun3zg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\gun_tower.png">
+      <PackagePath>Assets\Resources\gun_tower.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\HelloWorld.png">
+      <PackagePath>Assets\Resources\HelloWorld.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\hide.png">
+      <PackagePath>Assets\Resources\hide.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\honor.png">
+      <PackagePath>Assets\Resources\honor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house1.png">
+      <PackagePath>Assets\Resources\house1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house2.png">
+      <PackagePath>Assets\Resources\house2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house3.png">
+      <PackagePath>Assets\Resources\house3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\house4.png">
+      <PackagePath>Assets\Resources\house4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow1.png">
+      <PackagePath>Assets\Resources\houseshadow1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow2.png">
+      <PackagePath>Assets\Resources\houseshadow2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow3.png">
+      <PackagePath>Assets\Resources\houseshadow3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\houseshadow4.png">
+      <PackagePath>Assets\Resources\houseshadow4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\icon.png">
+      <PackagePath>Assets\Resources\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\jixu.png">
+      <PackagePath>Assets\Resources\jixu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\mine.png">
+      <PackagePath>Assets\Resources\mine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\missile1.png">
+      <PackagePath>Assets\Resources\missile1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\missile2.png">
+      <PackagePath>Assets\Resources\missile2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\no.png">
+      <PackagePath>Assets\Resources\no.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane1.png">
+      <PackagePath>Assets\Resources\plane1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane2.png">
+      <PackagePath>Assets\Resources\plane2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane3.png">
+      <PackagePath>Assets\Resources\plane3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\plane4.png">
+      <PackagePath>Assets\Resources\plane4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planebullet.png">
+      <PackagePath>Assets\Resources\planebullet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow1.png">
+      <PackagePath>Assets\Resources\planeshadow1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow2.png">
+      <PackagePath>Assets\Resources\planeshadow2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow3.png">
+      <PackagePath>Assets\Resources\planeshadow3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\planeshadow4.png">
+      <PackagePath>Assets\Resources\planeshadow4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\promote.png">
+      <PackagePath>Assets\Resources\promote.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\range.png">
+      <PackagePath>Assets\Resources\range.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select1.png">
+      <PackagePath>Assets\Resources\select1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select2.png">
+      <PackagePath>Assets\Resources\select2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select3.png">
+      <PackagePath>Assets\Resources\select3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\select4.png">
+      <PackagePath>Assets\Resources\select4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\shot.png">
+      <PackagePath>Assets\Resources\shot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\speed1.png">
+      <PackagePath>Assets\Resources\speed1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\speed2.png">
+      <PackagePath>Assets\Resources\speed2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\speed3.png">
+      <PackagePath>Assets\Resources\speed3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank1.png">
+      <PackagePath>Assets\Resources\tank1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank2.png">
+      <PackagePath>Assets\Resources\tank2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank3.png">
+      <PackagePath>Assets\Resources\tank3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank4.png">
+      <PackagePath>Assets\Resources\tank4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank5.png">
+      <PackagePath>Assets\Resources\tank5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\tank6.png">
+      <PackagePath>Assets\Resources\tank6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\unallow.png">
+      <PackagePath>Assets\Resources\unallow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\wave.png">
+      <PackagePath>Assets\Resources\wave.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\yes.png">
+      <PackagePath>Assets\Resources\yes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\zhan.png">
+      <PackagePath>Assets\Resources\zhan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\background.jpg">
+      <PackagePath>background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bar1.jpg">
+      <PackagePath>bar1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bkg.jpg">
+      <PackagePath>bkg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\background.jpg">
+      <PackagePath>Assets\Resources\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bar1.jpg">
+      <PackagePath>Assets\Resources\bar1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\bkg.jpg">
+      <PackagePath>Assets\Resources\bkg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2d.GIF">
+      <PackagePath>e2d.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2l.GIF">
+      <PackagePath>e2l.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2r.GIF">
+      <PackagePath>e2r.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2u.GIF">
+      <PackagePath>e2u.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3d.GIF">
+      <PackagePath>e3d.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3l.GIF">
+      <PackagePath>e3l.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3r.GIF">
+      <PackagePath>e3r.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3u.GIF">
+      <PackagePath>e3u.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\ed.GIF">
+      <PackagePath>ed.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\el.GIF">
+      <PackagePath>el.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\er.GIF">
+      <PackagePath>er.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\eu.GIF">
+      <PackagePath>eu.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2d.GIF">
+      <PackagePath>Assets\Resources\e2d.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2l.GIF">
+      <PackagePath>Assets\Resources\e2l.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2r.GIF">
+      <PackagePath>Assets\Resources\e2r.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e2u.GIF">
+      <PackagePath>Assets\Resources\e2u.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3d.GIF">
+      <PackagePath>Assets\Resources\e3d.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3l.GIF">
+      <PackagePath>Assets\Resources\e3l.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3r.GIF">
+      <PackagePath>Assets\Resources\e3r.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\e3u.GIF">
+      <PackagePath>Assets\Resources\e3u.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\ed.GIF">
+      <PackagePath>Assets\Resources\ed.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\el.GIF">
+      <PackagePath>Assets\Resources\el.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\er.GIF">
+      <PackagePath>Assets\Resources\er.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Resources\eu.GIF">
+      <PackagePath>Assets\Resources\eu.GIF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\cocos2d_2013\libcocos2d.dll">
+      <PackagePath>libcocos2d.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\CocosDenshion_2013\CocosDenshion.dll">
+      <PackagePath>CocosDenshion.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="F:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>F:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="F:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>F:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="F:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>F:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

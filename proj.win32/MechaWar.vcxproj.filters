@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DataType">
+      <UniqueIdentifier>{3f70023c-789b-429f-a7b3-801a1fe24279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameElement">
+      <UniqueIdentifier>{8e73af97-9d47-4cff-9a6a-2876192002af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameManager">
+      <UniqueIdentifier>{84650202-a424-4884-8f7a-3846e1f96386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{b0f5c43c-767b-44e6-8653-4fbf3601c489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameElement\Enemy">
+      <UniqueIdentifier>{bc2cbe72-76f3-400a-b2d3-cdf37065a266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameElement\Tower">
+      <UniqueIdentifier>{ece28b00-a8cc-4219-b954-6cfdca7fd182}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyRect.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyRectangle.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MySprite.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\Queue.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\Timer.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Attackfield.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Blast.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Bullet.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\HelpBar.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Map.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Mine.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\ShootFire.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Wall.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\CameraManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\GameManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\MathMethod.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\ObjectManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\PD.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\ResourceManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\RoundManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\SpriteManager.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\Status.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\HelloWorldScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\RoundSelectScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Enemy.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Flyer.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Plane.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Runner.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Enemy\Tank.cpp">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\Pillbox.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\Rocket.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\Tower.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\MainTarget.cpp">
+      <Filter>Classes\GameElement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\ProgressMananger.cpp">
+      <Filter>Classes\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyLabel.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameElement\Tower\SmokeRocket.cpp">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyPoint.cpp">
+      <Filter>Classes\DataType</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyRect.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyRectangle.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MySprite.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\Queue.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\Timer.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Attackfield.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Blast.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Bullet.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\HelpBar.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Map.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Mine.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\ShootFire.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Wall.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\CameraManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\GameManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\MathMethod.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\ObjectManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\PD.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\ResourceManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\RoundManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\SpriteManager.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\Status.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\HelloWorldScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\RoundSelectScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Enemy.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Flyer.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Plane.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Runner.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Enemy\Tank.h">
+      <Filter>Classes\GameElement\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\Pillbox.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\Rocket.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\Tower.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\MainTarget.h">
+      <Filter>Classes\GameElement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\ProgressMananger.h">
+      <Filter>Classes\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyLabel.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameElement\Tower\SmokeRocket.h">
+      <Filter>Classes\GameElement\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataType\MyPoint.h">
+      <Filter>Classes\DataType</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

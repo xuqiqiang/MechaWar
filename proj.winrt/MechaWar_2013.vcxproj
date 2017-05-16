@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{a4bd3c33-e173-4233-b52b-c5bfd57144c8}</ProjectGuid>
+    <RootNamespace>MechaWar</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>8.1</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <PackageCertificateKeyFile>TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)WinRT\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\GameManager;D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\GameElement\Tower;D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\GameElement\Enemy;D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\GameElement;D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\DataType;D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\Scene;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)WinRT\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)WinRT\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)WinRT\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)WinRT\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)WinRT\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>libEGL.lib;libGLESv2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\DataType;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\angle\include;$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\winrt;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4251;4244;4453;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Release'">
+    <ClCompile>
+      <PreprocessorDefinitions>WINRT;_WINRT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\$(Platform)\;$(SolutionDir)\$(Platform)\$(Configuration)\cocos2d;$(SolutionDir)\$(Platform)\$(Configuration)\libExtensions;$(SolutionDir)\$(Platform)\$(Configuration)\CocosDenshion</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</GenerateDebugInformation>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\$(Platform)\;$(SolutionDir)\$(Platform)\$(Configuration)\cocos2d;$(SolutionDir)\$(Platform)\$(Configuration)\libExtensions;$(SolutionDir)\$(Platform)\$(Configuration)\CocosDenshion</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateDebugInformation>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\$(Platform)\;$(SolutionDir)\$(Platform)\$(Configuration)\cocos2d;$(SolutionDir)\$(Platform)\$(Configuration)\libExtensions;$(SolutionDir)\$(Platform)\$(Configuration)\CocosDenshion</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateDebugInformation>
+    </Link>
+    <PreBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
+    <ClCompile>
+      <PreprocessorDefinitions>WINRT;_WINRT;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/D "_CRT_SECURE_NO_WARNINGS" %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</WholeProgramOptimization>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\$(Platform)\;$(SolutionDir)\$(Platform)\$(Configuration)\cocos2d;$(SolutionDir)\$(Platform)\$(Configuration)\libExtensions;$(SolutionDir)\$(Platform)\$(Configuration)\CocosDenshion</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\$(Platform)\;$(SolutionDir)\$(Platform)\$(Configuration)\cocos2d;$(SolutionDir)\$(Platform)\$(Configuration)\libExtensions;$(SolutionDir)\$(Platform)\$(Configuration)\CocosDenshion</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <PerUserRedirection Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PerUserRedirection>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\$(Platform)\;$(SolutionDir)\$(Platform)\$(Configuration)\cocos2d;$(SolutionDir)\$(Platform)\$(Configuration)\libExtensions;$(SolutionDir)\$(Platform)\$(Configuration)\CocosDenshion</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <PreBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Copy Resources to Assets folder</Message>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AppMacros.h" />
+    <ClInclude Include="..\Classes\DataType\MyLabel.h" />
+    <ClInclude Include="..\Classes\DataType\MyPoint.h" />
+    <ClInclude Include="..\Classes\DataType\MyRect.h" />
+    <ClInclude Include="..\Classes\DataType\MyRectangle.h" />
+    <ClInclude Include="..\Classes\DataType\MySprite.h" />
+    <ClInclude Include="..\Classes\DataType\Queue.h" />
+    <ClInclude Include="..\Classes\DataType\Timer.h" />
+    <ClInclude Include="..\Classes\GameElement\Attackfield.h" />
+    <ClInclude Include="..\Classes\GameElement\Blast.h" />
+    <ClInclude Include="..\Classes\GameElement\Bullet.h" />
+    <ClInclude Include="..\Classes\GameElement\Enemy\Enemy.h" />
+    <ClInclude Include="..\Classes\GameElement\Enemy\Flyer.h" />
+    <ClInclude Include="..\Classes\GameElement\Enemy\Plane.h" />
+    <ClInclude Include="..\Classes\GameElement\Enemy\Runner.h" />
+    <ClInclude Include="..\Classes\GameElement\Enemy\Tank.h" />
+    <ClInclude Include="..\Classes\GameElement\HelpBar.h" />
+    <ClInclude Include="..\Classes\GameElement\MainTarget.h" />
+    <ClInclude Include="..\Classes\GameElement\Map.h" />
+    <ClInclude Include="..\Classes\GameElement\Mine.h" />
+    <ClInclude Include="..\Classes\GameElement\ShootFire.h" />
+    <ClInclude Include="..\Classes\GameElement\Tower\Pillbox.h" />
+    <ClInclude Include="..\Classes\GameElement\Tower\Rocket.h" />
+    <ClInclude Include="..\Classes\GameElement\Tower\SmokeRocket.h" />
+    <ClInclude Include="..\Classes\GameElement\Tower\Tower.h" />
+    <ClInclude Include="..\Classes\GameElement\Wall.h" />
+    <ClInclude Include="..\Classes\GameManager\CameraManager.h" />
+    <ClInclude Include="..\Classes\GameManager\GameManager.h" />
+    <ClInclude Include="..\Classes\GameManager\MathMethod.h" />
+    <ClInclude Include="..\Classes\GameManager\ObjectManager.h" />
+    <ClInclude Include="..\Classes\GameManager\PD.h" />
+    <ClInclude Include="..\Classes\GameManager\ProgressMananger.h" />
+    <ClInclude Include="..\Classes\GameManager\ResourceManager.h" />
+    <ClInclude Include="..\Classes\GameManager\RoundManager.h" />
+    <ClInclude Include="..\Classes\GameManager\SpriteManager.h" />
+    <ClInclude Include="..\Classes\GameManager\Status.h" />
+    <ClInclude Include="..\Classes\Scene\GameScene.h" />
+    <ClInclude Include="..\Classes\Scene\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Scene\RoundSelectScene.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h">
+      <DependentUpon>App.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="MainPage.xaml.h">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package_2013.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\ARM\libEGL.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</DeploymentContent>
+    </None>
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\ARM\libGLESv2.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</DeploymentContent>
+    </None>
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\libEGL.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\libGLESv2.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\advice.png" />
+    <Image Include="..\Resources\airshadowd.png" />
+    <Image Include="..\Resources\airshadowl.png" />
+    <Image Include="..\Resources\airshadowr.png" />
+    <Image Include="..\Resources\airshadowu.png" />
+    <Image Include="..\Resources\background.jpg" />
+    <Image Include="..\Resources\bar1.jpg" />
+    <Image Include="..\Resources\bkg.jpg" />
+    <Image Include="..\Resources\bomb1.png" />
+    <Image Include="..\Resources\bomb2.png" />
+    <Image Include="..\Resources\bomb3.png" />
+    <Image Include="..\Resources\bomb4.png" />
+    <Image Include="..\Resources\bomb5.png" />
+    <Image Include="..\Resources\bomb6.png" />
+    <Image Include="..\Resources\bomb7.png" />
+    <Image Include="..\Resources\bomb8.png" />
+    <Image Include="..\Resources\bomb9.png" />
+    <Image Include="..\Resources\bomba.png" />
+    <Image Include="..\Resources\bullet.png" />
+    <Image Include="..\Resources\charge1.png" />
+    <Image Include="..\Resources\charge2.png" />
+    <Image Include="..\Resources\CloseNormal.png" />
+    <Image Include="..\Resources\CloseSelected.png" />
+    <Image Include="..\Resources\dialog.png" />
+    <Image Include="..\Resources\d_ear.png" />
+    <Image Include="..\Resources\e2d.GIF" />
+    <Image Include="..\Resources\e2l.GIF" />
+    <Image Include="..\Resources\e2r.GIF" />
+    <Image Include="..\Resources\e2u.GIF" />
+    <Image Include="..\Resources\e3d.GIF" />
+    <Image Include="..\Resources\e3l.GIF" />
+    <Image Include="..\Resources\e3r.GIF" />
+    <Image Include="..\Resources\e3u.GIF" />
+    <Image Include="..\Resources\e4d.png" />
+    <Image Include="..\Resources\e4l.png" />
+    <Image Include="..\Resources\e4r.png" />
+    <Image Include="..\Resources\e4u.png" />
+    <Image Include="..\Resources\e5d.png" />
+    <Image Include="..\Resources\e5l.png" />
+    <Image Include="..\Resources\e5r.png" />
+    <Image Include="..\Resources\e5u.png" />
+    <Image Include="..\Resources\e6d.png" />
+    <Image Include="..\Resources\e6l.png" />
+    <Image Include="..\Resources\e6r.png" />
+    <Image Include="..\Resources\e6u.png" />
+    <Image Include="..\Resources\e7d.png" />
+    <Image Include="..\Resources\e7l.png" />
+    <Image Include="..\Resources\e7r.png" />
+    <Image Include="..\Resources\e7u.png" />
+    <Image Include="..\Resources\e8d.png" />
+    <Image Include="..\Resources\e8l.png" />
+    <Image Include="..\Resources\e8r.png" />
+    <Image Include="..\Resources\e8u.png" />
+    <Image Include="..\Resources\e9a.png" />
+    <Image Include="..\Resources\e9b.png" />
+    <Image Include="..\Resources\e9c.png" />
+    <Image Include="..\Resources\e9d.png" />
+    <Image Include="..\Resources\e9e.png" />
+    <Image Include="..\Resources\e9f.png" />
+    <Image Include="..\Resources\e9shadow.png" />
+    <Image Include="..\Resources\ead.png" />
+    <Image Include="..\Resources\eal.png" />
+    <Image Include="..\Resources\ear.png" />
+    <Image Include="..\Resources\eau.png" />
+    <Image Include="..\Resources\ed.GIF" />
+    <Image Include="..\Resources\el.GIF" />
+    <Image Include="..\Resources\er.GIF" />
+    <Image Include="..\Resources\eu.GIF" />
+    <Image Include="..\Resources\explosion1.png" />
+    <Image Include="..\Resources\explosion2.png" />
+    <Image Include="..\Resources\fire.png" />
+    <Image Include="..\Resources\fire1.png" />
+    <Image Include="..\Resources\fire2.png" />
+    <Image Include="..\Resources\frame0.png" />
+    <Image Include="..\Resources\frame1.png" />
+    <Image Include="..\Resources\frame2.png" />
+    <Image Include="..\Resources\frame3.png" />
+    <Image Include="..\Resources\frame4.png" />
+    <Image Include="..\Resources\frame5.png" />
+    <Image Include="..\Resources\frame6.png" />
+    <Image Include="..\Resources\frame7.png" />
+    <Image Include="..\Resources\frame8.png" />
+    <Image Include="..\Resources\frame9.png" />
+    <Image Include="..\Resources\framea.png" />
+    <Image Include="..\Resources\frameb.png" />
+    <Image Include="..\Resources\framec.png" />
+    <Image Include="..\Resources\framed.png" />
+    <Image Include="..\Resources\framee.png" />
+    <Image Include="..\Resources\framef.png" />
+    <Image Include="..\Resources\gun1.png" />
+    <Image Include="..\Resources\gun2.png" />
+    <Image Include="..\Resources\gun21.png" />
+    <Image Include="..\Resources\gun31.png" />
+    <Image Include="..\Resources\gun31shadow.png" />
+    <Image Include="..\Resources\gun3a.png" />
+    <Image Include="..\Resources\gun3b.png" />
+    <Image Include="..\Resources\gun3c.png" />
+    <Image Include="..\Resources\gun3d.png" />
+    <Image Include="..\Resources\gun3e.png" />
+    <Image Include="..\Resources\gun3f.png" />
+    <Image Include="..\Resources\gun3g.png" />
+    <Image Include="..\Resources\gun3h.png" />
+    <Image Include="..\Resources\gun3i.png" />
+    <Image Include="..\Resources\gun3j.png" />
+    <Image Include="..\Resources\gun3k.png" />
+    <Image Include="..\Resources\gun3l.png" />
+    <Image Include="..\Resources\gun3m.png" />
+    <Image Include="..\Resources\gun3n.png" />
+    <Image Include="..\Resources\gun3o.png" />
+    <Image Include="..\Resources\gun3p.png" />
+    <Image Include="..\Resources\gun3q.png" />
+    <Image Include="..\Resources\gun3r.png" />
+    <Image Include="..\Resources\gun3s.png" />
+    <Image Include="..\Resources\gun3t.png" />
+    <Image Include="..\Resources\gun3u.png" />
+    <Image Include="..\Resources\gun3v.png" />
+    <Image Include="..\Resources\gun3w.png" />
+    <Image Include="..\Resources\gun3x.png" />
+    <Image Include="..\Resources\gun3y.png" />
+    <Image Include="..\Resources\gun3za.png" />
+    <Image Include="..\Resources\gun3zb.png" />
+    <Image Include="..\Resources\gun3zc.png" />
+    <Image Include="..\Resources\gun3zd.png" />
+    <Image Include="..\Resources\gun3ze.png" />
+    <Image Include="..\Resources\gun3zf.png" />
+    <Image Include="..\Resources\gun3zg.png" />
+    <Image Include="..\Resources\gun_tower.png" />
+    <Image Include="..\Resources\HelloWorld.png" />
+    <Image Include="..\Resources\hide.png" />
+    <Image Include="..\Resources\honor.png" />
+    <Image Include="..\Resources\house1.png" />
+    <Image Include="..\Resources\house2.png" />
+    <Image Include="..\Resources\house3.png" />
+    <Image Include="..\Resources\house4.png" />
+    <Image Include="..\Resources\houseshadow1.png" />
+    <Image Include="..\Resources\houseshadow2.png" />
+    <Image Include="..\Resources\houseshadow3.png" />
+    <Image Include="..\Resources\houseshadow4.png" />
+    <Image Include="..\Resources\icon.png" />
+    <Image Include="..\Resources\jixu.png" />
+    <Image Include="..\Resources\mine.png" />
+    <Image Include="..\Resources\missile1.png" />
+    <Image Include="..\Resources\missile2.png" />
+    <Image Include="..\Resources\no.png" />
+    <Image Include="..\Resources\plane1.png" />
+    <Image Include="..\Resources\plane2.png" />
+    <Image Include="..\Resources\plane3.png" />
+    <Image Include="..\Resources\plane4.png" />
+    <Image Include="..\Resources\planebullet.png" />
+    <Image Include="..\Resources\planeshadow1.png" />
+    <Image Include="..\Resources\planeshadow2.png" />
+    <Image Include="..\Resources\planeshadow3.png" />
+    <Image Include="..\Resources\planeshadow4.png" />
+    <Image Include="..\Resources\promote.png" />
+    <Image Include="..\Resources\range.png" />
+    <Image Include="..\Resources\select1.png" />
+    <Image Include="..\Resources\select2.png" />
+    <Image Include="..\Resources\select3.png" />
+    <Image Include="..\Resources\select4.png" />
+    <Image Include="..\Resources\shot.png" />
+    <Image Include="..\Resources\speed1.png" />
+    <Image Include="..\Resources\speed2.png" />
+    <Image Include="..\Resources\speed3.png" />
+    <Image Include="..\Resources\tank1.png" />
+    <Image Include="..\Resources\tank2.png" />
+    <Image Include="..\Resources\tank3.png" />
+    <Image Include="..\Resources\tank4.png" />
+    <Image Include="..\Resources\tank5.png" />
+    <Image Include="..\Resources\tank6.png" />
+    <Image Include="..\Resources\unallow.png" />
+    <Image Include="..\Resources\wave.png" />
+    <Image Include="..\Resources\yes.png" />
+    <Image Include="..\Resources\zhan.png" />
+    <Image Include="Assets\Logo.png" />
+    <Image Include="Assets\SmallLogo.png" />
+    <Image Include="Assets\StoreLogo.png" />
+    <Image Include="Assets\SplashScreen.png" />
+    <Image Include="Assets\WideLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataType\MyLabel.cpp" />
+    <ClCompile Include="..\Classes\DataType\MyPoint.cpp" />
+    <ClCompile Include="..\Classes\DataType\MyRect.cpp" />
+    <ClCompile Include="..\Classes\DataType\MyRectangle.cpp" />
+    <ClCompile Include="..\Classes\DataType\MySprite.cpp" />
+    <ClCompile Include="..\Classes\DataType\Queue.cpp" />
+    <ClCompile Include="..\Classes\DataType\Timer.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Attackfield.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Blast.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Bullet.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Enemy\Enemy.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Enemy\Flyer.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Enemy\Plane.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Enemy\Runner.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Enemy\Tank.cpp" />
+    <ClCompile Include="..\Classes\GameElement\HelpBar.cpp" />
+    <ClCompile Include="..\Classes\GameElement\MainTarget.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Map.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Mine.cpp" />
+    <ClCompile Include="..\Classes\GameElement\ShootFire.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Tower\Pillbox.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Tower\Rocket.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Tower\SmokeRocket.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Tower\Tower.cpp" />
+    <ClCompile Include="..\Classes\GameElement\Wall.cpp" />
+    <ClCompile Include="..\Classes\GameManager\CameraManager.cpp" />
+    <ClCompile Include="..\Classes\GameManager\GameManager.cpp" />
+    <ClCompile Include="..\Classes\GameManager\MathMethod.cpp" />
+    <ClCompile Include="..\Classes\GameManager\ObjectManager.cpp" />
+    <ClCompile Include="..\Classes\GameManager\PD.cpp" />
+    <ClCompile Include="..\Classes\GameManager\ProgressMananger.cpp" />
+    <ClCompile Include="..\Classes\GameManager\ResourceManager.cpp" />
+    <ClCompile Include="..\Classes\GameManager\RoundManager.cpp" />
+    <ClCompile Include="..\Classes\GameManager\SpriteManager.cpp" />
+    <ClCompile Include="..\Classes\GameManager\Status.cpp" />
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp" />
+    <ClCompile Include="..\Classes\Scene\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Scene\RoundSelectScene.cpp" />
+    <ClCompile Include="App.xaml.cpp">
+      <DependentUpon>App.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="MainPage.xaml.cpp">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</ForcedIncludeFiles>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <_CustomResource Include="..\Resources\**\*">
+      <Link>Assets\Resources\%(RecursiveDir)%(FileName)%(Extension)</Link>
+      <DeploymentContent>true</DeploymentContent>
+    </_CustomResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.winrt\cocos2d_2013.vcxproj">
+      <Project>{12155db2-c528-4c56-8292-5e87fc315769}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.winrt\CocosDenshion_2013.vcxproj">
+      <Project>{886fb3f1-cdbc-4b60-94c8-0f02eb583a1e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.winrt\libExtensions_2013.vcxproj">
+      <Project>{f8a69a16-14eb-4e5c-8f99-4cbfc5a6e089}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.winrt\Box2D_2013.vcxproj">
+      <Project>{79fc91d4-974c-4bc7-8e8c-79e194437de7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.winrt\chipmunk_2013.vcxproj">
+      <Project>{3ad76ea1-d698-40d2-b04d-d9ab8171f40b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf" />
+    <Font Include="..\Resources\fonts\Marker Felt.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Classes\chinese.xml" />
+  </ItemGroup>
+  <Target Name="_CollectCustomResources" BeforeTargets="AssignTargetPaths">
+    <Message Text="Adding resource: %(_CustomResource.Identity) -&gt; %(_CustomResource.Link)" />
+    <ItemGroup>
+      <None Include="@(_CustomResource)" />
+    </ItemGroup>
+  </Target>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

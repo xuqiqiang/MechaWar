@@ -1,0 +1,187 @@
+﻿生成启动时间为 2015/2/13 14:04:37。
+     1>项目“D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\MechaWar_2013.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\DataType" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt\angle\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\kazmath\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external\chipmunk\include\chipmunk" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\CocosDenshion\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\extensions" /I..\Classes /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\" /I"Generated Files\\" /IWin32\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /GL /D WINRT /D _WINRT /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Win32\Debug\pch.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4453 /FIpch.h /FU"F:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" pch.cpp
+         pch.cpp
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\DataType" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt\angle\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\kazmath\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external\chipmunk\include\chipmunk" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\CocosDenshion\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\extensions" /I..\Classes /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\" /I"Generated Files\\" /IWin32\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /GL /D WINRT /D _WINRT /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4453 /FIpch.h /FU"F:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" ..\Classes\AppDelegate.cpp
+         AppDelegate.cpp
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\DataType" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt\angle\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\kazmath\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external\chipmunk\include\chipmunk" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\CocosDenshion\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\extensions" /I..\Classes /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\" /I"Generated Files\\" /IWin32\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /GL /D WINRT /D _WINRT /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Win32\Debug\pch.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4453 /FIpch.h /FU"F:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" ..\Classes\DataType\MyLabel.cpp ..\Classes\DataType\MyPoint.cpp ..\Classes\DataType\MyRect.cpp ..\Classes\DataType\MyRectangle.cpp ..\Classes\DataType\MySprite.cpp ..\Classes\DataType\Queue.cpp ..\Classes\DataType\Timer.cpp ..\Classes\GameElement\Attackfield.cpp ..\Classes\GameElement\Blast.cpp ..\Classes\GameElement\Bullet.cpp ..\Classes\GameElement\Enemy\Enemy.cpp ..\Classes\GameElement\Enemy\Flyer.cpp ..\Classes\GameElement\Enemy\Plane.cpp ..\Classes\GameElement\Enemy\Runner.cpp ..\Classes\GameElement\Enemy\Tank.cpp ..\Classes\GameElement\HelpBar.cpp ..\Classes\GameElement\MainTarget.cpp ..\Classes\GameElement\Map.cpp ..\Classes\GameElement\Mine.cpp ..\Classes\GameElement\ShootFire.cpp ..\Classes\GameElement\Tower\Pillbox.cpp ..\Classes\GameElement\Tower\Rocket.cpp ..\Classes\GameElement\Tower\SmokeRocket.cpp ..\Classes\GameElement\Tower\Tower.cpp ..\Classes\GameElement\Wall.cpp ..\Classes\GameManager\CameraManager.cpp ..\Classes\GameManager\GameManager.cpp ..\Classes\GameManager\MathMethod.cpp ..\Classes\GameManager\ObjectManager.cpp ..\Classes\GameManager\PD.cpp ..\Classes\GameManager\ProgressMananger.cpp ..\Classes\GameManager\ResourceManager.cpp ..\Classes\GameManager\RoundManager.cpp ..\Classes\GameManager\SpriteManager.cpp ..\Classes\GameManager\Status.cpp ..\Classes\Scene\GameScene.cpp ..\Classes\Scene\HelloWorldScene.cpp ..\Classes\Scene\RoundSelectScene.cpp App.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp" MainPage.xaml.cpp
+         MyLabel.cpp
+         MyPoint.cpp
+         MyRect.cpp
+         MyRectangle.cpp
+         MySprite.cpp
+         Queue.cpp
+         Timer.cpp
+         Attackfield.cpp
+         Blast.cpp
+         Bullet.cpp
+         Enemy.cpp
+         Flyer.cpp
+         Plane.cpp
+         Runner.cpp
+         Tank.cpp
+         HelpBar.cpp
+         MainTarget.cpp
+     1>..\Classes\GameElement\Enemy\Enemy.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Enemy\Tank.cpp(61): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>..\Classes\GameElement\Enemy\Plane.cpp(124): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+         Map.cpp
+     1>..\Classes\GameElement\Enemy\Tank.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Enemy\Tank.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+         Mine.cpp
+         ShootFire.cpp
+         Pillbox.cpp
+         Rocket.cpp
+         SmokeRocket.cpp
+         Tower.cpp
+         Wall.cpp
+     1>..\Classes\GameElement\Map.cpp(211): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Map.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Map.cpp(231): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Map.cpp(262): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Map.cpp(318): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Map.cpp(323): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Map.cpp(354): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameElement\Tower\Rocket.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+         CameraManager.cpp
+     1>..\Classes\GameElement\Tower\Tower.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
+         GameManager.cpp
+         MathMethod.cpp
+         ObjectManager.cpp
+         PD.cpp
+         ProgressMananger.cpp
+         ResourceManager.cpp
+         RoundManager.cpp
+         SpriteManager.cpp
+         Status.cpp
+     1>..\Classes\GameManager\MathMethod.cpp(148): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ProgressMananger.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ProgressMananger.cpp(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(244): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\Classes\GameManager\ObjectManager.cpp(248): warning C4018: “<”: 有符号/无符号不匹配
+         GameScene.cpp
+         HelloWorldScene.cpp
+         RoundSelectScene.cpp
+         App.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+         MainPage.xaml.cpp
+       CreateWinMD:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\\" /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\Win32\Debug\cocos2d" /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\Win32\Debug\libExtensions" /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\Win32\Debug\CocosDenshion" libEGL.lib libGLESv2.lib kernel32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST:NO /DEBUG /PDB:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\AppDelegate.obj
+         Win32\Debug\MyLabel.obj
+         Win32\Debug\MyPoint.obj
+         Win32\Debug\MyRect.obj
+         Win32\Debug\MyRectangle.obj
+         Win32\Debug\MySprite.obj
+         Win32\Debug\Queue.obj
+         Win32\Debug\Timer.obj
+         Win32\Debug\Attackfield.obj
+         Win32\Debug\Blast.obj
+         Win32\Debug\Bullet.obj
+         Win32\Debug\Enemy.obj
+         Win32\Debug\Flyer.obj
+         Win32\Debug\Plane.obj
+         Win32\Debug\Runner.obj
+         Win32\Debug\Tank.obj
+         Win32\Debug\HelpBar.obj
+         Win32\Debug\MainTarget.obj
+         Win32\Debug\Map.obj
+         Win32\Debug\Mine.obj
+         Win32\Debug\ShootFire.obj
+         Win32\Debug\Pillbox.obj
+         Win32\Debug\Rocket.obj
+         Win32\Debug\SmokeRocket.obj
+         Win32\Debug\Tower.obj
+         Win32\Debug\Wall.obj
+         Win32\Debug\CameraManager.obj
+         Win32\Debug\GameManager.obj
+         Win32\Debug\MathMethod.obj
+         Win32\Debug\ObjectManager.obj
+         Win32\Debug\PD.obj
+         Win32\Debug\ProgressMananger.obj
+         Win32\Debug\ResourceManager.obj
+         Win32\Debug\RoundManager.obj
+         Win32\Debug\SpriteManager.obj
+         Win32\Debug\Status.obj
+         Win32\Debug\GameScene.obj
+         Win32\Debug\HelloWorldScene.obj
+         Win32\Debug\RoundSelectScene.obj
+         Win32\Debug\App.xaml.obj
+         Win32\Debug\MainPage.xaml.obj
+         Win32\Debug\pch.obj
+         Win32\Debug\XamlTypeInfo.Impl.g.obj
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\cocos2d_2013\libcocos2d.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\CocosDenshion_2013\CocosDenshion.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\libExtensions_2013\libExtensions.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\Box2D_2013\libBox2D.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\chipmunk_2013\libchipmunk.lib"
+         正在生成代码
+         已完成代码的生成
+       CompileXamlGeneratedFiles:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\Classes\DataType" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt\angle\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\kazmath\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\external\chipmunk\include\chipmunk" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\CocosDenshion\include" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\extensions" /I..\Classes /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt" /I"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\" /I"Generated Files\\" /IWin32\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /GL /D WINRT /D _WINRT /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Win32\Debug\pch.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4453 /FIpch.h /FU"F:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"F:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\..\..\..\cocos2dx\platform\third_party\winrt\libraries\vs2013\Win32\\" /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\Win32\Debug\cocos2d" /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\Win32\Debug\libExtensions" /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\\Win32\Debug\CocosDenshion" libEGL.lib libGLESv2.lib kernel32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST:NO /DEBUG /PDB:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\AppDelegate.obj
+         Win32\Debug\MyLabel.obj
+         Win32\Debug\MyPoint.obj
+         Win32\Debug\MyRect.obj
+         Win32\Debug\MyRectangle.obj
+         Win32\Debug\MySprite.obj
+         Win32\Debug\Queue.obj
+         Win32\Debug\Timer.obj
+         Win32\Debug\Attackfield.obj
+         Win32\Debug\Blast.obj
+         Win32\Debug\Bullet.obj
+         Win32\Debug\Enemy.obj
+         Win32\Debug\Flyer.obj
+         Win32\Debug\Plane.obj
+         Win32\Debug\Runner.obj
+         Win32\Debug\Tank.obj
+         Win32\Debug\HelpBar.obj
+         Win32\Debug\MainTarget.obj
+         Win32\Debug\Map.obj
+         Win32\Debug\Mine.obj
+         Win32\Debug\ShootFire.obj
+         Win32\Debug\Pillbox.obj
+         Win32\Debug\Rocket.obj
+         Win32\Debug\SmokeRocket.obj
+         Win32\Debug\Tower.obj
+         Win32\Debug\Wall.obj
+         Win32\Debug\CameraManager.obj
+         Win32\Debug\GameManager.obj
+         Win32\Debug\MathMethod.obj
+         Win32\Debug\ObjectManager.obj
+         Win32\Debug\PD.obj
+         Win32\Debug\ProgressMananger.obj
+         Win32\Debug\ResourceManager.obj
+         Win32\Debug\RoundManager.obj
+         Win32\Debug\SpriteManager.obj
+         Win32\Debug\Status.obj
+         Win32\Debug\GameScene.obj
+         Win32\Debug\HelloWorldScene.obj
+         Win32\Debug\RoundSelectScene.obj
+         Win32\Debug\App.xaml.obj
+         Win32\Debug\MainPage.xaml.obj
+         Win32\Debug\pch.obj
+         Win32\Debug\XamlTypeInfo.Impl.g.obj
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\cocos2d_2013\libcocos2d.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\CocosDenshion_2013\CocosDenshion.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\libExtensions_2013\libExtensions.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\Box2D_2013\libBox2D.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\chipmunk_2013\libchipmunk.lib"
+         Win32\Debug\XamlTypeInfo.g.obj
+            正在创建库 D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.lib 和对象 D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.exp
+         正在生成代码
+         已完成代码的生成
+         MechaWar_2013.vcxproj -> D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\WinRT\Win32\Debug\MechaWar_2013\MechaWar_2013.exe
+     1>已完成生成项目“D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\MechaWar_2013.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.12

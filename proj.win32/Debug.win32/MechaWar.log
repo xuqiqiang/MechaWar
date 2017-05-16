@@ -1,0 +1,60 @@
+﻿生成启动时间为 2015/3/3 10:40:15。
+     1>项目“D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\MechaWar.vcxproj”在节点 4 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\" mkdir "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\MechaWar.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\MechaWar.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\MechaWar.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\MyLabel.obj
+         Debug.win32\MyPoint.obj
+         Debug.win32\MyRect.obj
+         Debug.win32\MyRectangle.obj
+         Debug.win32\MySprite.obj
+         Debug.win32\Queue.obj
+         Debug.win32\Timer.obj
+         Debug.win32\Attackfield.obj
+         Debug.win32\Blast.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\Flyer.obj
+         Debug.win32\Plane.obj
+         Debug.win32\Runner.obj
+         Debug.win32\Tank.obj
+         Debug.win32\HelpBar.obj
+         Debug.win32\MainTarget.obj
+         Debug.win32\Map.obj
+         Debug.win32\Mine.obj
+         Debug.win32\ShootFire.obj
+         Debug.win32\Pillbox.obj
+         Debug.win32\Rocket.obj
+         Debug.win32\SmokeRocket.obj
+         Debug.win32\Tower.obj
+         Debug.win32\Wall.obj
+         Debug.win32\CameraManager.obj
+         Debug.win32\GameManager.obj
+         Debug.win32\MathMethod.obj
+         Debug.win32\ObjectManager.obj
+         Debug.win32\PD.obj
+         Debug.win32\ProgressMananger.obj
+         Debug.win32\ResourceManager.obj
+         Debug.win32\RoundManager.obj
+         Debug.win32\SpriteManager.obj
+         Debug.win32\Status.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\RoundSelectScene.obj
+         Debug.win32\main.obj
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\libcocos2d.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\libExtensions.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\libBox2D.lib"
+         "D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         MechaWar.vcxproj -> D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\Debug.win32\MechaWar.exe
+     1>已完成生成项目“D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.win32\MechaWar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.74

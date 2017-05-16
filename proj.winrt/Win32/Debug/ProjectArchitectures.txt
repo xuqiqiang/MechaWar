@@ -1,0 +1,6 @@
+D:\workspace\cocos2d-x-2.2.5\cocos2dx\proj.winrt\cocos2d_2013.vcxproj;x86
+D:\workspace\cocos2d-x-2.2.5\CocosDenshion\proj.winrt\CocosDenshion_2013.vcxproj;x86
+D:\workspace\cocos2d-x-2.2.5\extensions\proj.winrt\libExtensions_2013.vcxproj;x86
+D:\workspace\cocos2d-x-2.2.5\external\Box2D\proj.winrt\Box2D_2013.vcxproj;x86
+D:\workspace\cocos2d-x-2.2.5\external\chipmunk\proj.winrt\chipmunk_2013.vcxproj;x86
+D:\workspace\cocos2d-x-2.2.5\projects\MechaWar\proj.winrt\MechaWar_2013.vcxproj;x86
